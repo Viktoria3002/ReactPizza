@@ -1,0 +1,46 @@
+.root {
+  position: relative;
+  //   left: -150px;
+}
+
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  padding-left: 42px;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 15px;
+  // transition: all 0.15s ease-in-out;
+
+  // &:focus {
+  //   border: 1px solid rgba(255, 0, 0, 0.7);
+  //   width: 350px;
+  // }
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  opacity: 0.4;
+  position: absolute;
+  left: 32px;
+  top: 30px;
+  cursor: pointer;
+}
+
+.delete {
+  width: 17px;
+  height: 17px;
+  opacity: 0.3;
+  position: absolute;
+  right: 32px;
+  top: 30px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.delete:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
